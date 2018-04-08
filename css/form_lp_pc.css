@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/********************************************/
+/*	設定値									*/
+/********************************************/
+/********************************************/
+/*	基本設定									*/
+/********************************************/
+input[type='text'],
+textarea,
+select {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  line-height: 1.5;
+  font-size: 12px;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+
+
+/********************************************/
+/*	入力画面／確認画面						*/
+/********************************************/
+.form {
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.form b {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+table.richform {
+  width: 900px;
+  margin: 0 auto;
+}
+table.richform caption {
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ff6699;
+  color: #ff6699;
+  font-size: 18px;
+}
+div.form table.richform tbody tr.required th:after {
+  content: "必須";
+  color:#fff;
+  background-color: #e30;
+}
+table.richform tbody tr:first-child th, table.richform tbody tr:first-child td {
+  border-top: none;
+}
+table.richform tbody th, table.richform tbody td {
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+table.richform tbody th {
+  width: 200px;
+  vertical-align: middle;
+}
+table.richform tbody th.noname {
+  width: 70px;
+}
+div.form table.richform tbody th:not(.static):after {
+  float: right;
+  padding: 2px 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 11px;
+  content: "任意";
+  background-color: #03e;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+textarea,
+select {
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ccc;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+textarea:focus,
+select:focus {
+  background-color: #fff;
+}
+input[type='text'].error,
+input[type='password'].error,
+input[type='number'].error,
+input[type='email'].error,
+textarea.error,
+select.error {
+  border: 2px solid #f00;
+  padding: 5px;
+}
+input[type='text'].complete,
+input[type='password'].complete,
+input[type='number'].complete,
+input[type='email'].complete,
+textarea.complete,
+select.complete {
+  background-color: #fff;
+}
+input[type='text'].short,
+input[type='password'].short,
+input[type='number'].short,
+input[type='email'].short,
+textarea.short,
+select.short {
+  width: 100px;
+}
+input[type='text'].medium,
+input[type='password'].medium,
+input[type='number'].medium,
+input[type='email'].medium,
+textarea.medium,
+select.medium {
+  width: 195px;
+}
+input[type='text'].semilong,
+input[type='password'].semilong,
+input[type='number'].semilong,
+input[type='email'].semilong,
+textarea.semilong,
+select.semilong {
+  width: 290px;
+}
+input[type='text'].long,
+input[type='password'].long,
+input[type='number'].long,
+input[type='email'].long,
+textarea.long,
+select.long {
+  width: 385px;
+}
+input[type='text'].biglong,
+input[type='password'].biglong,
+input[type='number'].biglong,
+input[type='email'].biglong,
+textarea.biglong,
+select.biglong {
+  width: 555px;
+}
+
+label a {
+  color: #ff6699;
+}
+label input[type='checkbox'] {
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+input[type='text'].half {
+  ime-mode: disabled;
+}
+
+textarea {
+  height: 100px;
+  width: 500px;
+}
+
+.example {
+  color: #333333;
+  font-size: 11px;
+}
+
+span.example {
+  margin-left: 5px;
+}
+
+p.example {
+  margin-top: 5px;
+}
+
+p.explain {
+  margin-top: 5px;
+  color: #ccc;
+  font-size: 10px;
+}
+
+p.error {
+  margin-top: 5px;
+  color: #c30;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.action {
+  margin-top: 15px;
+  text-align: center;
+}
+.action input[type='submit'] {
+  padding: 27px 20px;
+  width: 390px;
+  background-color: #080;
+  border: none;
+  vertical-align: top;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.action input[type='submit']:hover {
+  background-color: #090;
+}
+.action a.yet {
+  display: inline-block;
+  padding: 15px 20px;
+  /*background-color: #f00;*/
+  color:#fff;
+  font-weight: bold;
+  font-size: 14px;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/*.action a.yet:hover {*/
+  /*background-color: #ff0a0a;*/
+/*}*/
+.action a.back {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #999;
+  color: #000;
+  font-size: 14px;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.action a.back:hover {
+  background-color: #aaa;
+}
+
+/********************************************/
+/*	バリデーション							*/
+/********************************************/
+.valid-counter {
+  z-index: 10;
+  position: absolute;
+  top: 55px;
+  right: 5%;
+  background-color: #f00;
+  -moz-box-shadow: 5px 5px 10px rgba(64, 64, 64, 0.4);
+  -webkit-box-shadow: 5px 5px 10px rgba(64, 64, 64, 0.4);
+  box-shadow: 5px 5px 10px rgba(64, 64, 64, 0.4);
+  padding: 10px;
+  opacity: 0.9;
+  color:#fff;
+}
+.valid-counter.complete {
+  background-color: #008000;
+}
+.valid-counter p {
+  white-space: nowrap;
+}
+.valid-counter p span {
+  font-weight: bold;
+}
+
+.valid {
+  z-index: 10;
+  position: absolute;
+  top: -25px;
+  display: inline-block;
+}
+.valid .valid-inner {
+  position: relative;
+  padding: 5px 8px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: rgba(255, 0, 0, 0.8);
+  cursor: pointer;
+  color:#fff;
+}
+.valid .valid-inner:after {
+  content: '';
+  position: absolute;
+  border-top: 10px solid #f00;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  bottom: -9px;
+  left: 15px;
+  opacity: 0.8;
+}
+.valid .valid-inner span {
+  margin-left: 4px;
+  vertical-align: top;
+  font-size: 8px;
+  line-height: 1;
+}
+
+/********************************************/
+/*	jQuery UI AutocompleteのCSS部分  		*/
+/********************************************/
+
+/* リストの枠のRadius設定 */
+.ui-corner-all {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* リストの枠の設定 */
+.ui-widget-content {
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  color: #000;
+  width: 385px;
+}
+
+/* リスト内のデータのリンク設定 */
+.ui-menu .ui-menu-item a {
+  text-decoration: none;
+  display: block;
+  padding: 4px .4em;
+  line-height: 1.7;
+  min-height: 0; /* support: IE7 */
+  font-weight: normal;
+  font-size:18px;
+}
+
+/* リスト内のデータのリンクカラー*/
+.ui-widget-content a {
+  color: #ccc;
+}
+
+/* リスト内のデータフォーカス時のカラー */
+.ui-state-focus {
+  font-weight: bold;
+}
+
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+  font-weight: normal;
+  margin: -1px;
+
+}
+
+li.ui-menu-item {
+  padding: 4px 0px;
+  font-size:20px;
+  text-align: left;
+}
+
+
+
