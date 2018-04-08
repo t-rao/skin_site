@@ -225,7 +225,7 @@ text-align: center!important;
 }
 /* mobile_form*/
 table.richform {
-  width: 95%;
+  width: 95%!important;
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -1427,7 +1427,7 @@ padding-bottom: 40px;
 
   /* mobile_form*/
   table.richform {
-    width: 95%;
+    width: 95%!important;
     border-collapse: collapse;
     border-spacing: 0;
   }
@@ -2687,7 +2687,7 @@ ul{
 
   /* mobile_form*/
   table.richform {
-    width: 95%;
+    width: 95%!important;
     border-collapse: collapse;
     border-spacing: 0;
   }
