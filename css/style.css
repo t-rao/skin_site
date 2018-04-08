@@ -201,6 +201,75 @@ text-align: center!important;
 
 /* Mobile in portrate mode */
 @media only screen and (max-width : 320px) {
+.smartphone{
+  display: block;
+}
+.pc{
+  display: none;
+}
+/* mobile_form*/
+table.richform {
+  width: 95%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table.richform caption {
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ff6699;
+  color: #ff6699;
+  font-size: 18px;
+}
+table.richform tbody tr.required th:after {
+  content: "必須";
+  background-color: #e30;
+}
+table.richform tbody tr:first-child th, table tbody tr:first-child td {
+  border-top: none;
+}
+table.richform tbody th, table tbody td {
+  box-sizing: border-box;
+  border-top: 1px solid #222;
+  padding: 10px;
+  position: relative;
+}
+table.richform tbody th {
+  width: 200px;
+  vertical-align: middle;
+}
+table.richform tbody th.noname {
+  width: 70px;
+}
+table.richform tbody th:not(.static):after {
+  float: right;
+  padding: 2px 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 11px;
+  content: "任意";
+  background-color: #03e;
+}
+table.richform tbody tr {
+  display: block;
+}
+table.richform tbody th, table.richform tbody td {
+  display: block;
+  width: auto;
+}
+table.richform tbody th::after {
+  float: none;
+  margin-left: 5px;
+}
+table.richform tbody td {
+  border-top: medium none;
+  padding-top: 0;
+}
+
+/* MObile form*/
+
 .section-20 .dp_green_2{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -1331,6 +1400,77 @@ padding-bottom: 40px;
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 321px)  and (max-width: 480px){
+
+  .smartphone{
+    display: block;
+  }
+  .pc{
+    display: none;
+  }
+
+
+  /* mobile_form*/
+  table.richform {
+    width: 95%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  table.richform caption {
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ff6699;
+    color: #ff6699;
+    font-size: 18px;
+  }
+  table.richform tbody tr.required th:after {
+    content: "必須";
+    background-color: #e30;
+  }
+  table.richform tbody tr:first-child th, table tbody tr:first-child td {
+    border-top: none;
+  }
+  table.richform tbody th, table tbody td {
+    box-sizing: border-box;
+    border-top: 1px solid #222;
+    padding: 10px;
+    position: relative;
+  }
+  table.richform tbody th {
+    width: 200px;
+    vertical-align: middle;
+  }
+  table.richform tbody th.noname {
+    width: 70px;
+  }
+  table.richform tbody th:not(.static):after {
+    float: right;
+    padding: 2px 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    content: "任意";
+    background-color: #03e;
+  }
+  table.richform tbody tr {
+    display: block;
+  }
+  table.richform tbody th, table.richform tbody td {
+    display: block;
+    width: auto;
+  }
+  table.richform tbody th::after {
+    float: none;
+    margin-left: 5px;
+  }
+  table.richform tbody td {
+    border-top: medium none;
+    padding-top: 0;
+  }
+
+  /* MObile form*/
 
   .section-21{
   margin-top: 60px;
@@ -2522,6 +2662,75 @@ ul{
 
 
 @media only screen and (min-width: 481px)  and (max-width: 767px){
+  .smartphone{
+    display: block;
+  }
+  .pc{
+    display: none;
+  }
+
+  /* mobile_form*/
+  table.richform {
+    width: 95%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  table.richform caption {
+    box-sizing: border-box;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ff6699;
+    color: #ff6699;
+    font-size: 18px;
+  }
+  table.richform tbody tr.required th:after {
+    content: "必須";
+    background-color: #e30;
+  }
+  table.richform tbody tr:first-child th, table tbody tr:first-child td {
+    border-top: none;
+  }
+  table.richform tbody th, table tbody td {
+    box-sizing: border-box;
+    border-top: 1px solid #222;
+    padding: 10px;
+    position: relative;
+  }
+  table.richform tbody th {
+    width: 200px;
+    vertical-align: middle;
+  }
+  table.richform tbody th.noname {
+    width: 70px;
+  }
+  table.richform tbody th:not(.static):after {
+    float: right;
+    padding: 2px 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    content: "任意";
+    background-color: #03e;
+  }
+  table.richform tbody tr {
+    display: block;
+  }
+  table.richform tbody th, table.richform tbody td {
+    display: block;
+    width: auto;
+  }
+  table.richform tbody th::after {
+    float: none;
+    margin-left: 5px;
+  }
+  table.richform tbody td {
+    border-top: medium none;
+    padding-top: 0;
+  }
+
+  /* MObile form*/
   .section-21{
   margin-top: 60px;
   }
@@ -3649,6 +3858,12 @@ ul{
 
 @media only screen and (min-width: 768px){
 
+  .smartphone{
+    display: none;
+  }
+  .pc{
+    display: block;
+  }
   .section-21{
   margin-top: 60px;
   }
