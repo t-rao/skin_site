@@ -1128,7 +1128,46 @@
     </div>
   </div>
 </section>
+<script type="text/javascript">
 
+	$('.choice').click(function(){
+
+		var code = $(this).attr('class').replace(/choice/g,'').replace(/ /g,'');
+		console.log('code:'+code);
+		$('#MemberItemId').val(code);
+
+		// 移動先を取得
+		var target = $("a[name='form']");
+		// 移動先を数値で取得
+		var position = target.offset().top;
+		// スムーススクロール
+		$('body,html').animate({scrollTop:position}, 1000, 'swing');
+		return false;
+	});
+
+
+	function choice (code) {
+		//コース選択
+		$('#MemberItemId').val(code);
+		//フォームへ移動
+		// 移動先を取得
+		var target = $("a[name='form']");
+		// 移動先を数値で取得
+		var position = target.offset().top;
+		// スムーススクロール
+		$('body,html').animate({scrollTop:position}, speed, 'swing');
+		return false;
+	}
+</script>
+
+<script type="text/javascript">
+	kntxtext.target = [
+		//[ 適用するinput要素のname属性,対応するカナのinput要素のname属性,文字種（ひらがなorカタカナ）,入力形式 ]
+		[ 'data[Member][name][1]', 'data[Member][kana][1]', kntxtext.constant.letterType.kana, kntxtext.constant.insertType.auto ],
+		[ 'data[Member][name][2]', 'data[Member][kana][2]', kntxtext.constant.letterType.kana, kntxtext.constant.insertType.auto ],
+	];
+</script>
+<a name="form"></a>
 
 <section class="pc">
   <div class="form" id="ft">
@@ -1471,6 +1510,7 @@
   </div>
 </section>
 
+
 <section class="smartphone">
   <div class="form" id="ft">
   		<form id="form" name="form" class="richform form" onsubmit="return submit_chk();" method="post" action="https://aibi-skin.co.jp/shop/lp/belleblan/" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>	<div class="valid-counter" style="">必須項目があります。　残り<span>9項目</span></div>
@@ -1803,7 +1843,7 @@
 
   	<div class="action">
   		<a class="yet" href="javascript:void(0);">
-  			<img src="/shop/images/lp_button/confirm_ng.jpg" style="width:90%;">
+  			<img src="images/confirm_ng.jpg" style="width:90%;">
   		</a>
   		<input type="image" src="/shop/images/lp_button/confirm_ok.jpg" style="width: 90%; display: none;" alt="入力内容を確認する" onclick="submit_check();return false;">
   		<input type="hidden" name="mode" value="form_send">
