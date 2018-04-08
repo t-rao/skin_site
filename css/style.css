@@ -238,10 +238,36 @@ list-style-type: none;
 }
 /* mobile_form*/
 input.tel[type="text"], input.tel[type='password'], input.tel[type='number'], input.tel[type='email'], textarea.tel, select.tel {
-  width: 0%!important;
+  width: 25%;
 }
 input.biglong[type="text"], input.biglong[type='password'], input.biglong[type='number'], input.biglong[type='email'], textarea.biglong, select.biglong {
-  width: 0%!important;
+  width: 100%;
+}
+input[type='text'].medium, input[type='password'].medium, input[type='number'].medium, input[type='email'].medium, textarea.medium, select.medium {
+   width: 150px!important;
+}
+input[type='text'].biglong, input[type='password'].biglong, input[type='number'].biglong, input[type='email'].biglong, textarea.biglong, select.biglong {
+  width: 347px!important;
+}
+input[type='email'].long{
+width: 325px!important;
+}
+input[type='text'], input[type='password'], input[type='number'], input[type='email'], textarea, select {
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ccc;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 .form{
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック","MS PGothic",sans-serif;
