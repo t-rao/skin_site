@@ -247,7 +247,7 @@ input[type='text'].medium, input[type='password'].medium, input[type='number'].m
    width: 150px!important;
 }
 input[type='text'].biglong, input[type='password'].biglong, input[type='number'].biglong, input[type='email'].biglong, textarea.biglong, select.biglong {
-  width: 347px!important;
+  width: 312px!important
 }
 input[type='email'].long{
 width: 325px!important;
@@ -1492,7 +1492,7 @@ input[type='text'].medium, input[type='password'].medium, input[type='number'].m
      width: 150px!important;
 }
 input[type='text'].biglong, input[type='password'].biglong, input[type='number'].biglong, input[type='email'].biglong, textarea.biglong, select.biglong {
-    width: 347px!important;
+    width: 312px!important;
 }
 input[type='email'].long{
   width: 325px!important;
