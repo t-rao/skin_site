@@ -199,6 +199,22 @@ input, select {
 text-align: center!important;
 }
 
+
+#guide{
+		background-color:#fff8fb;
+	padding: 20px 20px 40px 20px;
+}
+
+.midashi{
+	background: url(bg.gif) 0 0 no-repeat;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px 0 0 20px;
+    margin: 40px 0 20px 0;
+}
+
+
 /* Mobile in portrate mode */
 @media only screen and (max-width : 320px) {
 .smartphone{
