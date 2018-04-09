@@ -579,17 +579,17 @@ table.richform tbody td {
     margin-top: 40px;
   }
   .section-05 h2{
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: #01978F;
   margin: 50px auto;
   font-weight: 600;
   }
   #clean_skin{
-  width: 80%;
+  width: 100%;
   }
   #dirty_skin{
-  width: 80%;
+  width: 100%;
   }
   .red{
   color: #D22127!important;
@@ -1412,6 +1412,7 @@ color: black
 }
 .section-19 .row3 p span{
   font-weight: bold;
+  background: url(../images/yellow_bg.png) no-repeat 0px 9px;
 }
 .pnote{
   font-size: 12px;
@@ -1639,10 +1640,10 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     text-align: center;
     margin-top: 20px;
   }
-  .section-19 .whitebox{
-  height: 980px;
-  padding: 20px;
-  }
+  .section-19 .whitebox {
+    height: auto;
+    padding: 20px;
+}
   .img-50{
     width: 70%;
   }
@@ -1650,10 +1651,11 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   .section-19 .row1:last-child {
     margin-top: 100px;
 }
-  .section-19{
-    height: 1080px;
-    background:#F3F3F3;
-  }
+.section-19 {
+  height: auto;
+  background: #F3F3F3;
+  padding-bottom: 1px;
+}
   .section-19 .row2 {
     background: #FFFEEF;
     padding-top: 20px;
@@ -1672,6 +1674,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   }
   .section-19 .row3 p span{
     font-weight: bold;
+  background: url(../images/yellow_bg.png) no-repeat 0px 9px;
   }
   .pnote{
     font-size: 12px;
@@ -1701,11 +1704,16 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     width: 30%;
   }
   .section-18 {
-      height: 1300px;
+    height: 1190px;
+    margin-top: 100px;
+}
+  .section-18 .row3{
+    margin-top: 40px;
   }
+
   .dp_green_2 {
-      height: 150px;
-      font-size: 20px;
+      height: 120px;
+      font-size: 16px;
       color: white;
       padding-top: 30px;
       padding-bottom: 30px;
@@ -1715,34 +1723,34 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
       text-align: center;
       background: #54B3AB;
       border-radius: 5px;
-      line-height: 250%;
+      line-height: 150%;
       letter-spacing: 1px;
       margin: 130px auto 50px;
   }
   .section-17 {
-      height: 800px;
+      height: 700px;
   }
   .section-17 h2 {
       font-family: SourceHanSerif;
-      font-size: 25px;
+      font-size: 22px;
       color: #01978F;
       text-align: center;
       margin-bottom: 25px;
       line-height: 150%;
   }
   .section-17 .row1 p {
-    font-size: 16px;
+    font-size: 13px;
     font-family: Helvetica;
     font-weight: 100;
     padding-top: 30px;
-    line-height: 200%;
+    line-height: 250%;
 }
 .section-17 .row1 {
     background: url(../images/vec_laydy.png) no-repeat 150px 190px;
     background-size: 40%;
 }
-  .section-13 {
-    height: 350px;
+.section-13 {
+    height: 230px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -1752,17 +1760,19 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 .section-16 h2 {
     font-family: SourceHanSerif;
-    font-size: 25px;
+    font-size: 22px;
     color: #01978F;
     text-align: center;
     margin-bottom: 25px;
 }
 .section-16 h3 {
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 150%;
     text-align: center;
+    margin: 0 auto;
+    width: 320px;
 }
 .section-16 .row1 img {
     width: 80px;
@@ -1788,7 +1798,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     font-weight: 500;
 }
 .section-15 {
-  height: 700px;
+  height: 530px;
     margin-bottom: 50px;
 }
 .gray_bg {
@@ -1797,13 +1807,13 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 .section-15 h2 {
     font-family: SourceHanSerif;
-    font-size: 25px;
+    font-size: 22px;
     color: #01978F;
     text-align: center;
     margin-bottom: 25px;
 }
 .section-15 h2+p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Helvetica;
     line-height: 150%;
 }
@@ -1816,18 +1826,18 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     margin-left: 17px;
 }
 .section-15 img {
-    width: 15px;
-    margin-bottom: 20px;
+    width: 10px;
+    margin-bottom: 8px;
 }
 .section-15 img+p {
-    font-size: 14px;
+    font-size: 10px;
 }
 
 
 
 .section-14 {
     margin-top: 70px;
-    height: 2160px;
+    height: 1930px;
 }
 
 
@@ -1853,7 +1863,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     background: url(../images/hunny_bg.png) no-repeat 208px 90px, url(../images/wood.png) no-repeat 0px 339px;
     background-size: 50%, 60%;
     background-color: #F5F6F7;
-    height: 600px;
+    height: 520px;
     margin-top: 50px;
 }
 .mesg_container_2{
@@ -1875,7 +1885,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 .mesg_container_1 p {
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 50px;
     line-height: 180%;
     letter-spacing: 1px;
@@ -1890,7 +1900,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     padding-left: 10px;
     padding-right: 10px;
     background-color: #F5F6F7;
-    height: 700px;
+    height: 640px;
 }
 .mesg_container_2 .no_img {
         width: 50px;
@@ -1928,7 +1938,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     padding-left: 10px;
     padding-right: 10px;
     background-color: #F5F6F7;
-    height: 560px;
+    height: 490px;
 }
 .mesg_container_3 h3 {
   font-size: 20px;
@@ -1952,13 +1962,13 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 
 
 .dp_green {
-    height: 250px;
-    font-size: 16px;
+  height: 145px;
+  font-size: 11px;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-family: Helvetica;
     text-align: center;
     background: #54B3AB;
@@ -1968,7 +1978,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
   .section-11, .section-12 {
       background-color: #ECFAF9;
-      height: 450px;
+      height: 480px;
   }
   .section-12{
     margin-top: 80px;
@@ -1981,7 +1991,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 .section-11 .whitebox, .section-12 .whitebox  {
     background-color: white;
-    height: 250px;
+    height: 300px;
     margin-top: 0px;
 }
 .section-11 ul, .section-12 ul {
@@ -2007,7 +2017,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     }
 
   .h600{
-    height: 600px;
+    height: 280px;
   }
   .wd100 {
     width: 100%;
@@ -2074,7 +2084,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   color: red;
 }
   .section-09 {
-    height: 2350px;
+    height: 2240px;
 }
   .hero_sub{
     width: 100%;
@@ -2222,11 +2232,11 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     margin-bottom: 60px;
   }
   .section-04 h4 span {
-    font-size: 25px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
   .section-04 h4 {
-  font-size:40px;
+  font-size:20px;
   font-weight: lighter;
     font-family: Helvetica;
     letter-spacing: 1px;
@@ -2247,7 +2257,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   .section-04 h3 {
     font-family: Helvetica;
     font-weight: 200;
-    font-size: 26px;
+        font-size: 12px;
     color: lightgray;
     padding-top: 10px;
   }
@@ -2264,6 +2274,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   }
   .section-04 ul li {
     margin-bottom: 16px;
+    font-size: 12px;
   }
 
   .yellow_bg {
@@ -2283,18 +2294,19 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   margin: 50px auto;
   font-weight: 600;
   }
-  #clean_skin{
-      width: 60%;
-  }
+  #clean_skin {
+    width: 100%;
+}
   #dirty_skin{
-      width: 60%;
+      width: 100%;
   }
   .red{
   color: darkred!important;
   }
   #avatarpic {
-    width: 60%;
-  }
+    width: 129px;
+    margin-top: 60px;
+}
   .section-05 .row2{
   margin-top: 80px;
   }
@@ -2304,11 +2316,11 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   padding: 4px 0;
   }
 
-  .section-05 .row2 p{
-  font-family: AozoraMinchoR;
-  line-height: 180%;
-  font-size: 16px;
-  }
+  .section-05 .row2 p {
+    font-family: AozoraMinchoR;
+    line-height: 180%;
+    font-size: 13px;
+}
   .section-06 {
   margin-top: 90px;
   }
@@ -2387,10 +2399,10 @@ font-size: 16px;
   .sec06_inner3 .row2 ul li:last-child{
   font-weight: bold!important;
   }
-  .row3 p{
+.section-06 .row3 p{
   line-height: 192%;
   }
-  .row3{
+.section-06 .row3{
   padding-top: 40px;
   }
   .secon_bg{
@@ -2407,7 +2419,7 @@ font-size: 16px;
   background-color: #ECFAF9;
   }
   .lightgreen_bg p{
-    font-size: 19px;
+    font-size: 17px;
   padding-top: 20px;
   text-align: center;
   }
@@ -2446,7 +2458,6 @@ font-size: 16px;
 
   .section-07 {
   height: 550px;
-  padding-top: 40px;
   }
   .section-07 .row2 p{
 
@@ -2471,7 +2482,7 @@ font-size: 16px;
 
   .section-08 {
     padding-top: 90px;
-    height: 3284px;
+    height: 3000px;
 }
   .section-08 .row1 h3{
   font-size: 30px;
@@ -2481,7 +2492,7 @@ font-size: 16px;
   }
   .section-08 .row1 h2 {
 
-    font-size: 32px;
+    font-size: 30px;
     font-weight: lighter;
     font-family: AozoraMinchoR;
     text-align: center;
@@ -2526,18 +2537,18 @@ display: inline-block;
   margin-right: 10px;
   }
   .txtmedium{
-  font-size: 22px;
+    font-size: 20px;
   font-weight:500;
   clear: both;
   margin-bottom: 0px;
   }
   .txtlarge {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     letter-spacing: 2px;
 }
   .prictit{
-  font-size: 35px;
+  font-size: 29px;
   font-weight: 500;
   font-family: Helvetica;
   color: #01978F;
@@ -2777,6 +2788,9 @@ ul{
 
 
 @media only screen and (min-width: 481px)  and (max-width: 767px){
+  .mesg_container_1 p span {
+    font-weight: bold;
+}
   .smartphone{
     display: block;
   }
@@ -2948,6 +2962,7 @@ input.biglong[type="text"], input.biglong[type='password'], input.biglong[type='
   }
   .section-19 .row3 p span{
     font-weight: bold;
+    background: url(../images/yellow_bg.png) no-repeat 0px 9px;
   }
   .pnote{
     font-size: 12px;
@@ -3989,7 +4004,9 @@ input.biglong[type="text"], input.biglong[type='password'], input.biglong[type='
 }
 
 @media only screen and (min-width: 768px){
-
+  .mesg_container_1 p span {
+      font-weight: bold;
+  }
   .smartphone{
     display: none;
   }
@@ -4059,17 +4076,18 @@ input.biglong[type="text"], input.biglong[type='password'], input.biglong[type='
     padding-top: 20px;
 }
   .section-19 .whitebox{
-  height: 1180px;
+  height: auto;
   padding: 30px;
   border-radius: 5px;
   }
   .img-50 {
     width: 30%;
 }
-  .section-19{
-    height: 1300px;
-    background:#F3F3F3;
-  }
+.section-19 {
+  height: auto;
+  background: #F3F3F3;
+  padding-bottom: 2px;
+}
   .section-19 .row2 {
     background: #FFFEEF;
     padding-top: 20px;
@@ -4092,6 +4110,7 @@ input.biglong[type="text"], input.biglong[type='password'], input.biglong[type='
   }
   .section-19 .row3 p span{
     font-weight: bold;
+    background: url(../images/yellow_bg.png) no-repeat 0px 9px;
   }
   .pnote {
       font-size: 16px;
@@ -4894,7 +4913,7 @@ margin-top: 0px;
     width: 80%;
 }
 #avatarpic {
-    width: 117%;
+    width: 91%;
 }
 .section-05 h2 {
     font-size: 22px;
