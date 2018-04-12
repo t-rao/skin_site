@@ -359,6 +359,8 @@ table.richform tbody td {
       background-size: 128%;
       background-color: #F5F5F5;
       margin-bottom: 50px;
+
+    margin-top: 60px;
   }
 .green_banner button{
   width: 60px;
@@ -1362,7 +1364,7 @@ margin-bottom: 25px;
     margin: 130px auto 50px;
 }
 .section-18 {
-    height: 1300px;
+    height: 1200px;
 }
 
 .img-100{
@@ -1387,11 +1389,12 @@ margin-top: 50px;
 }
 
 .section-19{
-  height: 1165px;
+  height: auto;
   background:#F3F3F3;
+      padding-bottom: 40px;
 }
 .section-19 .whitebox{
-height: 1080px;
+height: auto;
 padding: 20px;
 }
 .section-19 .row2 {
@@ -1649,7 +1652,8 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   }
 
   .section-19 .row1:last-child {
-    margin-top: 100px;
+    margin-top: 40px;
+	/*margin-top: 100px;*/
 }
 .section-19 {
   height: auto;
@@ -1704,7 +1708,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     width: 30%;
   }
   .section-18 {
-    height: 1190px;
+    height: 1090px;
     margin-top: 100px;
 }
   .section-18 .row3{
@@ -1725,7 +1729,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
       border-radius: 5px;
       line-height: 150%;
       letter-spacing: 1px;
-      margin: 130px auto 50px;
+          margin: 0px auto 50px;
   }
   .section-17 {
       height: 700px;
@@ -1756,7 +1760,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 
 .section-16 {
-    height: 1200px;
+    height: 1127px;
 }
 .section-16 h2 {
     font-family: SourceHanSerif;
@@ -1799,7 +1803,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
 .section-15 {
   height: 530px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .gray_bg {
     background: #F5F6F7;
@@ -1837,7 +1841,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 
 .section-14 {
     margin-top: 70px;
-    height: 1930px;
+    height: 1870px;
 }
 
 
@@ -1978,13 +1982,13 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 }
   .section-11, .section-12 {
       background-color: #ECFAF9;
-      height: 480px;
+      height: 450px;
   }
   .section-12{
     margin-top: 80px;
   }
   .section-11 h3, .section-12 h3{
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -2014,10 +2018,11 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 
   .section-10 {
       height: 170px;
+          margin-top: 60px;
     }
 
   .h600{
-    height: 280px;
+    height: auto;
   }
   .wd100 {
     width: 100%;
@@ -2084,7 +2089,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   color: red;
 }
   .section-09 {
-    height: 2240px;
+    height: 2090px;
 }
   .hero_sub{
     width: 100%;
@@ -2152,7 +2157,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
   }
   .section-02 {
     background: #ECFAF9;
-    height: 620px;
+    height: 570px;
   }
   .section-03 {
     padding-top: 60px;
@@ -2222,7 +2227,7 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
 
   .section-04 {
       padding-top: 60px;
-      padding-bottom: 60px;
+      /*padding-bottom: 60px;*/
   }
   .section-04 h2 {
     font-size: 21px;
@@ -2322,10 +2327,10 @@ input[type='text'], input[type='password'], input[type='number'], input[type='em
     font-size: 13px;
 }
   .section-06 {
-  margin-top: 90px;
+  margin-top: 60px;
   }
   .section-06 h2{
-  font-size: 30px;
+  font-size: 28px;
   font-weight: lighter;
   font-family: AozoraMinchoR;
   color: #01978F;
@@ -2481,8 +2486,8 @@ font-size: 16px;
   }
 
   .section-08 {
-    padding-top: 90px;
-    height: 3000px;
+    padding-top: 50px;
+    height: 2700px;
 }
   .section-08 .row1 h3{
   font-size: 30px;
@@ -2605,8 +2610,8 @@ display: inline-block;
       font-size: 16px;
   background-color: #01978F;
   padding: 10px 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: auto;
+margin-right: auto;
   margin-top: 0px;
   color: white;
   text-align: center;
@@ -2624,7 +2629,7 @@ display: inline-block;
 
 .price_tag{
   width: 30%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .price{
@@ -2641,7 +2646,7 @@ display: inline-block;
 }
 
 .gray_price h3{
-margin-bottom: 60px;
+margin-bottom: 20px;
 line-height: 150%;
 color: #8E8E8E;
 }
@@ -2653,7 +2658,7 @@ color: #8E8E8E;
   height: 50px;
   background-color: #C6392D;
   color: #F2F551;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 16px;
   letter-spacing: 1px;
 }
@@ -2673,7 +2678,7 @@ color: #8E8E8E;
 .section-08 .row4 .gray_price, .section-09 .row4 .gray_price {
     background-color: #F5F5F5;
     margin-bottom: 30px;
-        height: 580px;
+        height: 500px;
     text-align: center;
     padding-top: 40px;
 }
@@ -2682,8 +2687,12 @@ color: #8E8E8E;
 }
 
 .section-19 .row1{
-  margin-bottom: 100px;
+  margin-bottom: 41px;
 }
+.section-19 .row3{
+  margin-top: 30px;
+}
+
 }
 
 
@@ -4068,7 +4077,7 @@ input.biglong[type="text"], input.biglong[type='password'], input.biglong[type='
   }
 
 .section-19 .row1{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .section-19 .row1:last-child {
