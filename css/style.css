@@ -1471,12 +1471,31 @@ padding-bottom: 40px;
   height: 700px;
 }
 
+.btn-orginal{
+  background-color: #54B3AB;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 40px!important;
 }
+}
+
+
+
 
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 321px)  and (max-width: 480px){
 
+.btn-orginal{
+  background-color: #54B3AB;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 40px!important;
+}
   .smartphone{
     display: block;
   }
@@ -2487,7 +2506,8 @@ font-size: 16px;
 
   .section-08 {
     padding-top: 50px;
-    height: 2700px;
+    height: auto;
+    padding-bottom: 30px;
 }
   .section-08 .row1 h3{
   font-size: 30px;
@@ -2799,6 +2819,14 @@ ul{
 @media only screen and (min-width: 481px)  and (max-width: 767px){
   .mesg_container_1 p span {
     font-weight: bold;
+}
+.btn-orginal{
+  background-color: #54B3AB;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 40px!important;
 }
   .smartphone{
     display: block;
